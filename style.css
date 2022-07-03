@@ -14,6 +14,7 @@ h1 {
 
 section {
     display: flex;
+    margin-bottom: 150px;
 }
 
 .half-width {
@@ -37,4 +38,20 @@ section {
 .top-banner {
     background-image: url(images/top-banner.png);
     background-repeat: no-repeat;
+}
+
+.Download-Resume {
+    text-decoration: none;
+    background-image: linear-gradient(tomato, orange);
+    padding: 10px 30px;
+    color: azure;
+    font-weight: 800;
+    border-radius: 10px;
+}
+
+.Dream-Big {
+    background-image: url(images/dream-bg.png);
+    background-repeat: no-repeat;
+    background-position: right;
+    padding-right: 80px;
 }
